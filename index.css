@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#color-grid {
+   margin: 2rem 0;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
